@@ -8,7 +8,7 @@ permalink: ':title/'
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings add your name
-author: Leach Chen
+author: withing
 
 author-pic: leach-face.jpg
 about-author: I am an Android developer.I will add description latter.
@@ -23,9 +23,9 @@ instagram: # Add your Instagram handle
 pinterest: # Add your Pinterest handle
 
 #修改成你自己的
-email:
+email: 13640151155@163.com
 phone:
-github:
+github: https://github.com/Withingwolf
 jianshu:
 juejin:
 csdn:
@@ -34,7 +34,7 @@ csdn:
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus修改成你自己的
-discus_identifier: leach-chen
+discus_identifier: withing
 # Add your discus identifier
 
 #intensedebate修改成你自己的
@@ -65,11 +65,11 @@ imagepath: /blogdemo
 
 links:
   - name:         Home
-    url:          https://www.leachchen.com
+    url:          https://withingwolf.github.io./
     external:     false
-  - name:         About
-    url:          /blogdemo/about
-    external:     false
+  # - name:         About
+  #   url:          /blogdemo/about
+  #   external:     false
 
 #添加分类步骤：
 #1：在_config.yml links1及blog_中添加对应内容
