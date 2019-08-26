@@ -82,7 +82,7 @@ label2:  </span>
 
 links1:
   - name:         所有
-    url:          /blog
+    url:          /
     type:         recent
     external:     false
   - name:         随笔
