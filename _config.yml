@@ -61,7 +61,7 @@ plugins:
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
 
-imagepath: /blogdemo
+imagepath: /
 
 links:
   - name:         Home
@@ -86,11 +86,11 @@ links1:
     type:         recent
     external:     false
   - name:         随笔
-    url:          /blogdemo/myblog/essays
+    url:          /myblog/essays
     type:         essays
     external:     false
   - name:         Jekyll
-    url:          /blogdemo/myblog/jekyll
+    url:          /myblog/jekyll
     type:         jekyll
     external:     false
 
