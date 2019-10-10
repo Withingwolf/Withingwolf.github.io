@@ -85,18 +85,28 @@ links1:
     url:          /
     type:         recent
     external:     false
-  - name:         随笔
-    url:          /myblog/essays
-    type:         essays
+  - name:         Linux
+    url:          /myblog/linux
+    type:         linux
     external:     false
-  - name:         Jekyll
-    url:          /myblog/jekyll
-    type:         jekyll
+  - name:         计算机网络
+    url:          /myblog/network
+    type:         network
+    external:     false
+  - name:         Java
+    url:          /myblog/java
+    type:         java
+    external:     false
+  - name:         其他
+    url:          /myblog/others
+    type:         others
     external:     false
 
 blog_1:    recent
-blog_2:    essays
-blog_3:    jekyll
+blog_2:    java
+blog_3:    linux
+blog_4:    network
+blog_12:   others
 
 
 

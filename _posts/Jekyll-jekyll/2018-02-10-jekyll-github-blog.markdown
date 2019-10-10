@@ -6,7 +6,7 @@ description: Hello World！
 img: post-2.jpg # Add image post (optional)
 tags: [Jekyll,GitHub]
 author: # Add name author (optional)
-jekyll: true
+others: true
 ---
 
 {{site.label1}} <a href="https://github.com/leach-chen/blogdemo" target="\_blank">Leach Chen</a> {{site.label2}}
@@ -166,15 +166,15 @@ intensedebate_identifier: 1ce8d80a5f6d373a46f4ceaf3dff8859，intensedebate_ident
 我这里添加百度统计，添加谷歌统计因为被墙了，会影响文章的访问速度，添加也需要先去百度统计网站注册账户，申请key，申请到key后类似上一步定义在_config.yml中，同时会得到一段代码，把它添加到_includes目录下的head.html中,这样统计功能就添加完成
 
 	<!--百度统计-->
-    <script>
-    	var _hmt = _hmt || [];
-    	(function() {
-    	  var hm = document.createElement("script");
-    	  hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-analysis }}";
-    	  var s = document.getElementsByTagName("script")[0];
-    	  s.parentNode.insertBefore(hm, s);
-    	})();
-    </script>
+	<script>
+		var _hmt = _hmt || [];
+		(function() {
+		  var hm = document.createElement("script");
+		  hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu-analysis }}";
+		  var s = document.getElementsByTagName("script")[0];
+		  s.parentNode.insertBefore(hm, s);
+		})();
+	</script>
 
 **4. 添加文章访问量功能：**<br>
 在_includes目录下的head.html中添加

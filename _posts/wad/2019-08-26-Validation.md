@@ -4,9 +4,9 @@ title: Validation 校验时遇到的问题
 date:  2019-08-26 12:54:00 +0900
 description: 欢迎
 img: post-2.jpg # Add image post (optional)
-tags: [Validation,validate]
+tags: [Java,validate]
 author: withing
-jekyll: true
+java: true
 ---
 
 # Validation构建时遇到的问题
